@@ -1,0 +1,4 @@
+import os
+os.remove("novel.txt")#rimuove il file novel.txt
+os.rename("first_draft.txt","finished.txt")#rinomina il file
+os.path.exists("finished.txt")#ci dice se il file esiste con True o False
